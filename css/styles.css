@@ -83,7 +83,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.live-demos {
+.EXPLORE {
     display: inline-block;
     padding: 12px 30px;
     border: 1px solid white;
@@ -94,7 +94,7 @@ h1 {
     transition: background 0.3s, color 0.3s;
 }
 
-.live-demos:hover {
+.EXPLORE:hover {
     background-color: white;
     color: black;
 }
