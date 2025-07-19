@@ -4,94 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giant Afro Foods | Premium African Cuisine</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/scss/main.scss">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
 </head>
 <body class="dark-theme">
     <!-- Navigation -->
     <nav class="afro-nav">
-        <div class="nav-container">
-            <div class="logo">
+        <div class="container">
+            <a href="index.html" class="logo">
                 <span class="gold-text">GIANT</span> AFRO FOODS
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="mobile-menu">
+            <div class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="afro-hero">
-        <div class="hero-overlay"></div>
+    <section class="hero">
         <div class="hero-content">
             <h1>Authentic African <span class="gold-text">Flavors</span></h1>
             <p>Premium quality frozen vegetables, fresh produce, and traditional ingredients</p>
-            <div class="cta-buttons">
-                <a href="products.html" class="btn gold-btn">Our Products</a>
-                <a href="contact.html" class="btn outline-btn">Wholesale Inquiry</a>
-            </div>
+            <a href="products.html" class="btn gold-btn">Explore Products</a>
         </div>
     </section>
 
-    <!-- Product Categories -->
-    <section class="categories-section">
-        <h2>Our <span class="gold-text">Offerings</span></h2>
+    <!-- Featured Categories -->
+    <section class="categories">
+        <h2>Our <span class="gold-text">Categories</span></h2>
         <div class="category-grid">
             <div class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-snowflake"></i>
-                </div>
+                <img src="../assets/images/products/frozen.jpg" alt="Frozen Foods">
                 <h3>Frozen Foods</h3>
-                <p>Quick-frozen at peak freshness to preserve nutrients</p>
+                <p>Quick-frozen at peak freshness</p>
             </div>
             <div class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-leaf"></i>
-                </div>
+                <img src="../assets/images/products/fresh.jpg" alt="Fresh Produce">
                 <h3>Fresh Produce</h3>
-                <p>Farm-fresh vegetables and fruits</p>
+                <p>Farm-fresh African vegetables</p>
             </div>
             <div class="category-card">
-                <div class="category-icon">
-                    <i class="fas fa-mortar-pestle"></i>
-                </div>
+                <img src="../assets/images/products/spices.jpg" alt="Traditional Ingredients">
                 <h3>Traditional Ingredients</h3>
-                <p>Authentic African spices and staples</p>
+                <p>Authentic African spices</p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="afro-footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <span class="gold-text">GIANT</span> AFRO FOODS
+        <div class="container">
+            <div class="footer-col">
+                <h3>Giant Afro Foods</h3>
+                <p>Bringing authentic African flavors to your table</p>
             </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="quality.html">Quality Standards</a></li>
-                </ul>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <div class="footer-contact">
-                <h4>Contact Us</h4>
-                <p><i class="fas fa-phone gold-text"></i> +1 (234) 567-8900</p>
-                <p><i class="fas fa-envelope gold-text"></i> info@giantafrofoods.com</p>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>info@giantafrofoods.com</p>
+                <p>+1 (234) 567-8900</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 Giant Afro Foods. All Rights Reserved.</p>
+        <div class="copyright">
+            &copy; 2023 Giant Afro Foods. All rights reserved.
         </div>
     </footer>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
